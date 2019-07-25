@@ -1,0 +1,24 @@
+/*needed styles*/
+#back-top {
+  opacity: 0;
+  width: 55px;
+  height: 55px;
+  display: block;
+  z-index: 10;
+  position: fixed;
+  right: 0;
+  transition: .5s;
+  text-align: center;
+  cursor: pointer;
+}
+#back-top.active {
+  opacity: 1;
+}
+/*styles only for example*/
+body {
+  position: relative;
+  min-height: 200vh; 
+}
+footer {
+  position: absolute;
+}
